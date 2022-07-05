@@ -9,27 +9,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean-1.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body style="transform: scale(1);padding: 0px;margin: 0px;">
-    <header>
-        <div class="d-xxl-flex" style="background-image: url(assets/img/Final.jpg);background-position: center;background-size: cover;padding: 0px;margin: 0px;transform: scale(1);height: 750px;">
-            <div class="container d-flex flex-column justify-content-end align-items-start">
-                <h1 class="display-3 fw-bold" style="width: 650px;font-family: 'Work Sans', sans-serif;font-size: 92px;"><span style="text-decoration: underline;">Clay Burnette</span></h1>
+    <header data-aos="fade" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true">
+        <div class="d-xxl-flex" data-aos="fade" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true" style="background-image: url(assets/img/Final.jpg);background-position: center;background-size: cover;padding: 0px;margin: 0px;transform: scale(1);height: 750px;">
+            <div class="container d-flex flex-column justify-content-end align-items-start" data-aos="fade" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true">
+                <h1 class="display-3 fw-bold" style="width: 650px;font-family: 'Work Sans', sans-serif;font-size: 92px;padding-top: 0px;padding-bottom: 0px;"><span style="text-decoration: underline;">Clay Burnette</span></h1>
                 <p class="fs-2 text-info text-badge mb-5" style="width: 100x;font-size: 55px;"><strong>Software Developer</strong>&nbsp;</p>
             </div>
         </div>
-        <nav class="navbar navbar-light navbar-expand-lg navigation-clean" style="font-family: 'Work Sans', sans-serif;color: var(--bs-blue);background: var(--bs-dark);">
+        <nav class="navbar navbar-light navbar-expand-lg navigation-clean" data-aos="fade" data-aos-duration="3000" data-aos-delay="1000" data-aos-once="true" style="font-family: 'Work Sans', sans-serif;color: var(--bs-blue);background: var(--bs-dark);margin-bottom: -22px;">
             <div class="container"><a class="navbar-brand" href="#" style="color: var(--bs-gray-200);font-size: 30px;">C# | SQL | HTML | CSS | AGILE</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1" style="line-height: 24px;font-size: 25px;">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item" style="font-size: 25px;"><a class="nav-link" style="color: var(--bs-info);" href="#Projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#AboutMe" style="color: var(--bs-info);font-size: 25px;" target="_parent">About&nbsp;</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Education" style="color: var(--bs-info);font-size: 25px;" data-bs-target="#Education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#Contact" style="color: var(--bs-info);font-size: 25px;" data-bs-target="#Contact">Contact</a></li>
+                        <li class="nav-item" style="font-size: 25px;"><a class="nav-link" data-bss-hover-animate="flash" style="color: var(--bs-info);" href="#Projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bss-hover-animate="flash" href="#AboutMe" style="color: var(--bs-info);font-size: 25px;" target="_parent">About&nbsp;</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bss-hover-animate="flash" href="#Education" style="color: var(--bs-info);font-size: 25px;" data-bs-target="#Education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" data-bss-hover-animate="flash" href="#Contact" style="color: var(--bs-info);font-size: 25px;" data-bs-target="#Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,43 +39,41 @@
     </header>
     <main>
         <section class="py-4 py-xl-5" style="padding: 0px;padding-top: 0px;">
-            <section class="py-4 py-xl-5" style="padding: 10px 0px;">
+            <section class="py-4 py-xl-5" style="padding: 10px 0px;padding-top: 46px;margin-top: -29px;">
                 <header>
-                    <h1 id="Projects" style="font-family: 'Work Sans', sans-serif;color: var(--bs-info);text-decoration: underline;font-size: 40px;font-weight: bold;">Projects</h1>
+                    <h1 id="Projects" style="font-family: 'Work Sans', sans-serif;color: var(--bs-info);text-decoration: underline;font-size: 40px;font-weight: bold;margin-bottom: 10px;margin-top: 38px;">Projects</h1>
                 </header>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 d-xxl-flex py-5 projects" style="padding: 0px;margin: 0px;font-family: 'Work Sans', sans-serif;padding-top: 0px;">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 d-xxl-flex py-5 projects" id="Projects-Tabs" style="padding: 0px;margin: 0px;font-family: 'Work Sans', sans-serif;padding-top: 18px;margin-top: -42px;">
+                    <div class="col">
+                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/PetRentalMVC.png"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="pulse" id="PetRental-MVC" href="https://petrentalwebmvcsd135.azurewebsites.net" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" data-bs-target="https://petrentalwebmvcsd135.azurewebsites.net" target="_blank">Pet Rental MVC</a>
+                    </div>
                     <div class="col">
                         <div class="card"><img class="card-img w-100 d-block" src="assets/img/Gold.jpeg">
                             <header></header>
-                        </div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" id="GitHub" href="https://github.com/ClayBurnette/GoldBadgeChallenges" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" data-bs-target="https://github.com/ClayBurnette/GoldBadgeChallenges" target="_blank">Console Applications</a>
+                        </div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="pulse" id="GitHub" href="https://github.com/ClayBurnette/GoldBadgeChallenges" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" data-bs-target="https://github.com/ClayBurnette/GoldBadgeChallenges" target="_blank">Console Applications</a>
                     </div>
                     <div class="col">
-                        <div class="card"><img class="card-img w-100 d-block" id="Landing-Page" src="assets/img/Landing.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" id="Landing-Page" href="https://codepen.io/Claburne/pen/GRvQERN" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" target="_blank">Landing Page</a>
+                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Baseball.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="pulse" id="Baseball-API" href="https://github.com/ClayBurnette/BaseballAPI" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" data-bs-target="https://github.com/ClayBurnette/BaseballAPI" target="_blank">Baseball API</a>
                     </div>
                     <div class="col">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Rubik.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" id="CodePenAnimations" href="https://codepen.io/Claburne/pen/BamqeVQ" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" target="_blank">Animations</a>
+                        <div class="card"><img class="card-img w-100 d-block" id="Landing-Page" src="assets/img/Landing.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="pulse" id="Landing-Page" href="https://codepen.io/Claburne/pen/GRvQERN" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" target="_blank">Landing Page</a>
                     </div>
                     <div class="col">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Baseball.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" id="Baseball-API" href="https://github.com/ClayBurnette/BaseballAPI" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" data-bs-target="https://github.com/ClayBurnette/BaseballAPI" target="_blank">Baseball API</a>
+                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Survey.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="pulse" id="CodePenSurvey" href="https://codepen.io/Claburne/pen/yLooEzr" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" target="_blank">Survey Form</a>
                     </div>
                     <div class="col">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Survey.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" id="CodePenSurvey" href="https://codepen.io/Claburne/pen/yLooEzr" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" target="_blank">Survey Form</a>
-                    </div>
-                    <div class="col">
-                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/PetRentalMVC.png"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" id="PetRental-MVC" href="https://petrentalwebmvcsd135.azurewebsites.net" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" data-bs-target="https://petrentalwebmvcsd135.azurewebsites.net" target="_blank">Pet Rental MVC</a>
+                        <div class="card"><img class="card-img w-100 d-block" src="assets/img/Rubik.jpg"></div><a class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-end" data-bss-hover-animate="pulse" id="CodePenAnimations" href="https://codepen.io/Claburne/pen/BamqeVQ" style="font-family: 'Work Sans', sans-serif;font-size: 20px;text-align: center;color: var(--bs-info);" target="_blank">Animations</a>
                     </div>
                 </div>
                 <h1 id="AboutMe" style="font-size: 40px;font-family: 'Work Sans', sans-serif;flex: initial;text-align: left;font-weight: bold;background: var(--bs-dark);padding: 0px;color: var(--bs-info);"><strong><span style="text-decoration: underline;">About</span></strong></h1>
-                <p class="text-start" style="font-size: 25px;"><br>I am a leader that has excelled mentally and physically in the business sector. My academic path has shown me that I can take charge of stressful situations, flourish in the business community, and set standards that will help organizations succeed. My communication skills have grown into expertise that can move people, and encourage people to want to achieve better results and more successful work environments.<br><br>I have always gravitated towards technology. I am motivated to acquire the skills needed to succeed. I have taken on stressful course work, and giving myself the opportunity to fail. In those situations, I have developed into a successful, hard working, and dedicated leader that has held top positions in thriving companies. I am striving to be a software developer, who can bridge the gap between management and technology.<br><br></p>
-                <h1 id="Education" style="font-size: 40px;font-family: 'Work Sans', sans-serif;flex: initial;text-align: left;font-weight: bold;background: var(--bs-dark);color: var(--bs-info);padding: 20px;padding-right: 0px;padding-left: 0px;"><strong><span style="text-decoration: underline;">Education</span></strong></h1><p class="text-start" style="font-size: 20px;"><p class="text-start" style="font-size: 20px;font-weight: bold;text-decoration: underline;">Indiana University Bloomington</p>School of Public and Environmental Affairs <br> Bachelor of Science in Public Affairs <br> Major: Management<br> Cumulative GPA: 3.4</p><p class="text-start" style="font-size: 20px;"><p class="text-start" style="font-size: 20px;font-weight: bold;text-decoration: underline;">Eleven Fifty Academy</p>Software Development Bootcamp <br> C#, SQL, JSON, AGILE, HTML & CSS <br> Major: Software Development<br> Cumulative GPA: 3.9</p>
-                <p class="text-start d-xxl-flex justify-content-xxl-start align-items-xxl-end" style="font-weight: bold;color: var(--bs-info);text-align: left;"><strong>Resume</strong>&nbsp;<a id="Resume-1" href="https://docs.google.com/document/d/1MxYJy7cieTV3s8484kH2jSjO7xp60BYF/edit?usp=sharing&amp;ouid=105883736243386568255&amp;rtpof=true&amp;sd=true" target="_blank"><i class="fas fa-graduation-cap fs-1 me-2" id="Resume-1" style="color: var(--bs-info);" href="#https://www.linkedin.com/in/clayburnette/"></i></a></p>
+                <p class="text-start" style="font-size: 25px;padding-top: 0px;margin-top: -12px;"><br>I am a leader that has excelled mentally and physically in the business sector. My academic path has shown me that I can take charge of stressful situations, flourish in the business community, and set standards that will help organizations succeed. My communication skills have grown into expertise that can move people, and encourage people to want to achieve better results and more successful work environments.<br><br>I have always gravitated towards technology. I am motivated to acquire the skills needed to succeed. I have taken on stressful course work, and giving myself the opportunity to fail. In those situations, I have developed into a successful, hard working, and dedicated leader that has held top positions in thriving companies. I am striving to be a software developer, who can bridge the gap between management and technology.<br><br></p>
+                <h1 id="Education" style="font-size: 40px;font-family: 'Work Sans', sans-serif;flex: initial;text-align: left;font-weight: bold;background: var(--bs-dark);color: var(--bs-info);padding: 0px;padding-right: 0px;padding-left: 0px;margin-bottom: -10px;padding-bottom: 13px;"><strong><span style="text-decoration: underline;">Education</span></strong></h1><p class="text-start" style="font-size: 20px;"><p class="text-start" style="font-size: 20px;font-weight: bold;text-decoration: underline;">Eleven Fifty Academy</p>Software Development Bootcamp <br> C#, SQL, JSON, AGILE, HTML & CSS <br> Major: Software Development<br> Cumulative GPA: 3.9</p><p class="text-start" style="font-size: 20px;"><p class="text-start" style="font-size: 20px;font-weight: bold;text-decoration: underline;">Indiana University Bloomington</p>School of Public and Environmental Affairs <br> Bachelor of Science in Public Affairs <br> Major: Management<br> Cumulative GPA: 3.4</p>
+                <p class="text-start d-xxl-flex justify-content-xxl-start align-items-xxl-end" style="font-weight: bold;color: var(--bs-info);text-align: left;"><strong>Resume</strong>&nbsp;<a id="Resume-1" href="https://docs.google.com/document/d/1MxYJy7cieTV3s8484kH2jSjO7xp60BYF/edit?usp=sharing&amp;ouid=105883736243386568255&amp;rtpof=true&amp;sd=true" target="_blank"><i class="fas fa-graduation-cap fs-1 me-2" data-bss-hover-animate="rubberBand" id="Resume-1" style="color: var(--bs-info);" href="#https://www.linkedin.com/in/clayburnette/"></i></a></p>
             </section>
             <div class="container">
-                <header>
-                    <h1 id="Contact" style="font-family: 'Work Sans', sans-serif;color: var(--bs-info);text-decoration: underline;font-size: 40px;font-weight: bold;font-style: italic;padding-bottom: 20px;"></h1>
-                </header>
+                <header></header>
                 <section class="contact-clean" style="background: var(--bs-dark);">
-                    <form id="Contact" style="width: 480px;height: 480px;background: var(--bs-blue);transform: perspective(0px) scale(1.35);opacity: 0.93;filter: brightness(97%) grayscale(39%);" data-bss-recipient="6bb2d49bc4a2e68d5df713fba6d8d979">
+                    <form id="Contact" style="width: 480px;height: 480px;background: var(--bs-blue);transform: perspective(0px) scale(1.35);opacity: 0.93;filter: brightness(97%) grayscale(39%);padding-top: 29px;margin-top: -37px;" data-bss-recipient="6bb2d49bc4a2e68d5df713fba6d8d979">
                         <h2 class="text-center" style="font-family: 'Work Sans', sans-serif;color: var(--bs-white);">Want To Connect?</h2>
                         <div class="mb-3"><input class="form-control" type="text" name="name" placeholder="Name" style="font-family: 'Work Sans', sans-serif;" required=""></div>
                         <div class="mb-3"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" style="font-family: 'Work Sans', sans-serif;" required=""></div>
@@ -84,7 +84,7 @@
             </div>
         </section>
     </main>
-    <footer class="py-3">
+    <footer class="py-3" style="margin-top: -32px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start d-md-flex justify-content-md-start align-items-md-center py-2">
@@ -95,10 +95,10 @@
                 </div>
                 <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-md-end py-2">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a href="https://github.com/ClayBurnette" target="_blank"><i class="fab fa-github fs-1 me-2" id="Github" style="color: var(--bs-info);" href="#https://github.com/ClayBurnette"></i></a></li>
-                        <li class="list-inline-item"><a href="https://codepen.io/Claburne" target="_blank"><i class="fab fa-codepen fs-1 me-2" id="CodePen" style="color: var(--bs-info);" href="#https://codepen.io/Claburne"></i></a></li>
-                        <li class="list-inline-item" href="#google.com"><a href="https://www.linkedin.com/in/clayburnette/" target="_blank"><i class="fab fa-linkedin fs-1 me-2" id="LinkedIn" style="color: var(--bs-info);" href="#https://www.linkedin.com/in/clayburnette/"></i></a></li>
-                        <li class="list-inline-item" href="#google.com"><a id="Resume" href="https://docs.google.com/document/d/1MxYJy7cieTV3s8484kH2jSjO7xp60BYF/edit?usp=sharing&amp;ouid=105883736243386568255&amp;rtpof=true&amp;sd=true" target="_blank"><i class="fas fa-graduation-cap fs-1 me-2" id="Resume" style="color: var(--bs-info);" href="#https://www.linkedin.com/in/clayburnette/"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/ClayBurnette" target="_blank"><i class="fab fa-github fs-1 me-2" data-bss-hover-animate="flash" id="Github" style="color: var(--bs-info);" href="#https://github.com/ClayBurnette"></i></a></li>
+                        <li class="list-inline-item"><a href="https://codepen.io/Claburne" target="_blank"><i class="fab fa-codepen fs-1 me-2" data-bss-hover-animate="flash" id="CodePen" style="color: var(--bs-info);" href="#https://codepen.io/Claburne"></i></a></li>
+                        <li class="list-inline-item" href="#google.com"><a href="https://www.linkedin.com/in/clayburnette/" target="_blank"><i class="fab fa-linkedin fs-1 me-2" data-bss-hover-animate="flash" id="LinkedIn" style="color: var(--bs-info);" href="#https://www.linkedin.com/in/clayburnette/"></i></a></li>
+                        <li class="list-inline-item" href="#google.com"><a id="Resume" href="https://docs.google.com/document/d/1MxYJy7cieTV3s8484kH2jSjO7xp60BYF/edit?usp=sharing&amp;ouid=105883736243386568255&amp;rtpof=true&amp;sd=true" target="_blank"><i class="fas fa-graduation-cap fs-1 me-2" data-bss-hover-animate="flash" id="Resume" style="color: var(--bs-info);" href="#https://www.linkedin.com/in/clayburnette/"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -106,6 +106,8 @@
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 
 </html>
