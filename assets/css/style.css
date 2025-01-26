@@ -88,10 +88,6 @@ img {
   color: var(--color-brand);
 }
 
-.navbar .nav-link.active {
-  color: var(--color-brand);
-}
-
 @media (min-width: 992px) {
   .navbar {
     min-height: 100vh;
@@ -191,9 +187,6 @@ img {
 }
 
 /* SOCIAL ICONS */
-
-.social-icons {
-}
 
 .social-icons a {
   width: 40px;
